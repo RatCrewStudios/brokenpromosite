@@ -97,3 +97,28 @@ h3 {
 {
     text-align: center;
 }
+.rcs-logo
+{
+    position: fixed;
+    top: -0.1rem;
+    right: 1.5rem;
+    width: 75px;
+    height: 75px;
+}
+
+@media (min-width: 576px){
+    .rcs-logo
+    {
+    width: 100px;
+    height: 100px;
+    
+    }
+}
+@media (min-width: 992px){
+    .rcs-logo
+    {
+        width: 150px;
+        height: 150px;
+    
+    }
+}
